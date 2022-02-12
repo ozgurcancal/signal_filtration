@@ -26,7 +26,7 @@ double FindAbsMax(const double *arr, const size_t size)
 
 }
 
-void FindMaxMin(double *arr, size_t size, double* max, double* min)
+void FindMaxMin(const double *arr, size_t size, double* max, double* min)
 {
     *max = DBL_MIN;
     *min = DBL_MAX;

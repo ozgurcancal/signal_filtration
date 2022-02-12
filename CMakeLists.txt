@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.16.3)
 
-#project version??
-
 project(Filter VERSION 1.0)
 
 
@@ -26,12 +24,7 @@ set(SOURCE ${SOURCE}
 
 )
 
-
 add_executable(${PROJECT_NAME}
 	${HEADER}
     ${SOURCE}
 )
-
-# target_link_libraries(ges PUBLIC my_table)
-
-# add_subdirectory(Application/my_table)

@@ -1,3 +1,0 @@
-/home/ozguryalcin/Desktop/kişisel notlar/programlama mülakat/barko/filtration/build/CMakeFiles/rebuild_cache.dir
-/home/ozguryalcin/Desktop/kişisel notlar/programlama mülakat/barko/filtration/build/CMakeFiles/edit_cache.dir
-/home/ozguryalcin/Desktop/kişisel notlar/programlama mülakat/barko/filtration/build/CMakeFiles/Filter.dir

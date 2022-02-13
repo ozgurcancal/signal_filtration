@@ -7,8 +7,8 @@
 int main(void)
 {
 
-    const char in_file_name[]="/home/ozguryalcin/Desktop/kişisel notlar/programlama mülakat/barko/filtration/data_samples.txt";
-    const char out_file_name[]="/home/ozguryalcin/Desktop/kişisel notlar/programlama mülakat/barko/filtration/filtered_output.txt";
+    const char in_file_name[]="/../data_samples.txt";
+    const char out_file_name[]="/../filtered_output.txt";
 
     double p_in[SIZE] = {0};
     double p_out[SIZE] = {0};

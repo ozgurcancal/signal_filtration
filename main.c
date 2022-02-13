@@ -7,8 +7,8 @@
 int main(void)
 {
 
-    const char in_file_name[]="/home/ozguryalcin/Workspace/filtration/data_samples.txt";
-    const char out_file_name[]="/home/ozguryalcin/Workspace/filtration/filtered_output.txt";
+    const char in_file_name[]="/home/ozguryalcin/Desktop/kişisel notlar/programlama mülakat/barko/filtration/data_samples.txt";
+    const char out_file_name[]="/home/ozguryalcin/Desktop/kişisel notlar/programlama mülakat/barko/filtration/filtered_output.txt";
 
     double p_in[SIZE] = {0};
     double p_out[SIZE] = {0};
@@ -18,7 +18,7 @@ int main(void)
 
     FilterConvolution(p_in, p_out, p_coeffs, SIZE);
 
-    WriteFile(out_file_name, p_in, SIZE);
+    WriteFile(out_file_name, p_out, SIZE);
 
 
     return 0;

@@ -4,7 +4,6 @@ project(Filter VERSION 1.0)
 
 
 include_directories(
-    
     ${PROJECT_SOURCE_DIR}/include/utilities
     ${PROJECT_SOURCE_DIR}/include/file_handler
     ${PROJECT_SOURCE_DIR}/include/filter
@@ -28,3 +27,4 @@ add_executable(${PROJECT_NAME}
 	${HEADER}
     ${SOURCE}
 )
+

@@ -32,7 +32,7 @@ double FindAbsMax(const double* input_arr, const size_t size);
  * @param max Output maximum element of the array
  * @param min Output minimum element of the array
  */
-void FindMaxMin(const double* input_arr, const size_t size, double* max, double* min);
+void FindMaxMin(double* input_arr, const size_t size, double* max, double* min);
 /**
  * @brief Adjusts offset of a specified input signal
  * 

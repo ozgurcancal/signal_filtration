@@ -2,11 +2,11 @@
 #include "utilities.h"
 
 
-void GetFileValues(const char* fileName, double *p_in)
+void GetFileValues(const char* file_name, double *p_in)
 {
     FILE *in_file;
 
-    if ((in_file = fopen(fileName, "r")) == NULL)
+    if ((in_file = fopen(file_name, "r")) == NULL)
     {
         fprintf(stderr, "cannot open input file!..\n");
         exit(EXIT_FAILURE);
@@ -38,14 +38,14 @@ void GetFileValues(const char* fileName, double *p_in)
     fclose(in_file);
 }
 
-void WriteFile(const char* fileName, double* dataToBeWritten, size_t size)
+void WriteFile(const char* file_name, double* data_to_write, size_t size)
 {
     FILE *out_file;
-    out_file = fopen(fileName, "w");
+    out_file = fopen(file_name, "w");
 
     if (out_file == NULL)
     {
-        printf("%s doesn't open.", fileName);
+        printf("%s doesn't open.", file_name);
     }
     else
     {
@@ -55,7 +55,7 @@ void WriteFile(const char* fileName, double* dataToBeWritten, size_t size)
     for(int i=0;i<size;i++){
         if (size > 0)
         {
-            fprintf(out_file, "%lf\n", dataToBeWritten[i]);
+            fprintf(out_file, "%lf\n", data_to_write[i]);
 
         }
         else{
@@ -66,7 +66,7 @@ void WriteFile(const char* fileName, double* dataToBeWritten, size_t size)
 
     fclose(out_file);
 
-    printf("Data successfully written in file %s\n", fileName);
+    printf("Data successfully written in file %s\n", file_name);
     printf("The file is closed.");
   }
 }

@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/Filter.dir/source/utilities/utilities.c.o CMakeFiles/Filter.dir/source/file_handler/fileHandler.c.o CMakeFiles/Filter.dir/source/filter/filterConvolution.c.o CMakeFiles/Filter.dir/main.c.o  -o Filter 

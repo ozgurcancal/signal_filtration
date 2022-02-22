@@ -12,7 +12,7 @@ void ConvertCommaToDot(char *input)
 
 double FindAbsMax(const double *arr, const size_t size)
 {
-    double abs_max = DBL_MIN;
+    double abs_max = arr[0];
 
     for (int i = 0; i < size; i++)
     {
@@ -28,8 +28,8 @@ double FindAbsMax(const double *arr, const size_t size)
 
 void FindMaxMin(double *arr, size_t size, double* max, double* min)
 {
-    *max = DBL_MIN;
-    *min = DBL_MAX;
+    *max = arr[0];
+    *min = arr[0];
     double max_min[2] = {0,0}; 
 
 
